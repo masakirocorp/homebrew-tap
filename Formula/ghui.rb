@@ -1,30 +1,30 @@
 class Ghui < Formula
   desc "Terminal UI for GitHub pull requests"
   homepage "https://github.com/masakirocorp/ghui"
-  version "0.10.0-masakiro.4"
+  version "0.10.0-masakiro.5"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/masakirocorp/ghui/releases/download/v#{version}/ghui-darwin-arm64.tar.gz"
-      sha256 "041542809c0e1d82aa1b73e52a4966a5ba414c298f37cb9d2e69a407f3f7f642"
+      sha256 "8b78d851d006452115676f62ba58acb7ffc3e12861204256f3ac610e180a3e5a"
     end
 
     on_intel do
       url "https://github.com/masakirocorp/ghui/releases/download/v#{version}/ghui-darwin-x64.tar.gz"
-      sha256 "b159aa277341143fbee1173dbaa6d30de03c530dd0728d422dfff565317b3772"
+      sha256 "e7ed0bb0727cb903d08ec5f9567f87a241577254b04cef5081eaaf0d0f605337"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/masakirocorp/ghui/releases/download/v#{version}/ghui-linux-arm64.tar.gz"
-      sha256 "437d1bfb65a23b08bafb379dea3df1ee15e7491fc00b9a0fe02f457e944a3d2f"
+      sha256 "5308ba197e7a0efbd8706f1baf3d2f177aa0bde22d3b4426dc242ddc9a7405bc"
     end
 
     on_intel do
       url "https://github.com/masakirocorp/ghui/releases/download/v#{version}/ghui-linux-x64.tar.gz"
-      sha256 "e4efaf4effb2cf186f7b0d0e92e7296563fc088f7f64c7a1c45d7fe834918b8c"
+      sha256 "de28574857d3bc80a2eadc4527b8ceb3f7a0435a97954599fda7b234d58a7169"
     end
   end
 
